@@ -7,7 +7,9 @@
             "matches": [
                 "https://shop.bigbazaar.com/*"
             ],
-            "js": ["bigbazaar.js"]
+            "js": ["bigbazaar/script.js"],
+            "css": ["bigbazaar/styles.css"],
+            "run_at": "document_end"
         }
     ],
     "web_accessible_resources": [
