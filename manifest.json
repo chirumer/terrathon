@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Sustainable Alternative Finder",
+    "version": "1",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://shop.bigbazaar.com/*"
+            ],
+            "js": ["bigbazaar.js"]
+        }
+    ],
+    "web_accessible_resources": [
+        "data/links.txt"
+    ]
+}
